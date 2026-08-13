@@ -1,20 +1,19 @@
-📊 Sales & Customer Analytics Dashboard
+# 📊 Sales & Customer Analytics Dashboard
 
 An interactive Tableau analytics project for evaluating sales
 performance, profitability, customer behavior, product sub-categories,
 and year-over-year business growth.
 
 
-The project contains two primary dashboards:
+### The project contains two primary dashboards:
 
-Sales Dashboard
+#### Sales Dashboard
 
-Customer Dashboard
+#### Customer Dashboard
 
+--
 
-
-
-🎯 Objectives
+## 🎯 Objectives
 
 Convert raw sales data into meaningful business insights.
 
@@ -30,7 +29,7 @@ Highlight high-value customers based on profit.
 
 Create a clean, minimal, and business-focused Tableau dashboard.
 
-🖥️ Dashboard 1 --- Sales Dashboard
+# 🖥️ Dashboard 1 --- Sales Dashboard
 
 Key KPIs
 
@@ -40,7 +39,7 @@ KPI                       2017 Result    YoY Change
 💰 Total Profit         $93K   +14.24%
 📦 Total Quantity         12K   +26.83%
 
-What the dashboard shows
+## What the dashboard shows
 
 📈 Monthly sales performance with 2017 vs. 2016 comparison.
 
@@ -55,7 +54,7 @@ indicators.
 
 📉 Average sales and average profit reference levels.
 
-Business Insights
+### Business Insights
 
 1. Strong overall sales growth
 
@@ -83,7 +82,7 @@ The dashboard highlights strong contributors such as Copiers,
 Accessories, Phones, Binders, and Chairs, while Tables, Machines,
 Supplies, and Bookcases show profitability concerns.
 
-The underlying 2017 data shows particularly significant losses in:
+### The underlying 2017 data shows particularly significant losses in:
 
 🔻 Tables: approximately -$44.3K profit
 
@@ -96,7 +95,7 @@ The underlying 2017 data shows particularly significant losses in:
 This makes these categories strong candidates for pricing, discount,
 sourcing, and product-mix review.
 
-👥 Dashboard 2 --- Customer Dashboard
+# 👥 Dashboard 2 --- Customer Dashboard
 
 Key KPIs
 
@@ -106,7 +105,7 @@ KPI                           2017 Result    YoY Change
 💵 Sales per Customer     $1,058   +10.80%
 🧾 Total Orders             1,687   +28.29%
 
-What the dashboard shows
+### What the dashboard shows
 
 👥 Total active customer count.
 
@@ -122,7 +121,7 @@ What the dashboard shows
 
 📅 Last-order information for high-value customers.
 
-Business Insights
+### Business Insights
 
 1. Customer base expanded
 
@@ -150,7 +149,7 @@ on $14.2K sales, while the top customer group provides a clear
 starting point for retention, relationship management, and account-level
 strategies.
 
-📊 Combined Business Impact
+## 📊 Combined Business Impact
 
 The dashboards provide a management-level view of how the business
 performed in 2017.
@@ -181,7 +180,7 @@ Growth Snapshot
 
 📈 10.80% growth in sales per customer
 
-Management Takeaways
+### Management Takeaways
 
 Area                    Observation             Potential Business
 Action
@@ -213,7 +212,7 @@ contribution            discounts, and costs
 product/discount
 strategy
 
-🗂️ Dataset Information
+## 🗂️ Dataset Information
 
 The project uses four CSV datasets.
 
@@ -330,36 +329,10 @@ attributes to create a unified analytical view in Tableau.
 
 The dashboards use calculated aggregations such as:
 
-SUM(Sales)
+SUM(Sales),-- SUM(Profit), SUM(Quantity), COUNTD(Customer ID), COUNTD(Order ID), Sales per Customer, Year-over-Year growth, Monthly trends, Sub-category profitability, Customer profit ranking
 
-SUM(Profit)
 
-SUM(Quantity)
-
-COUNTD(Customer ID)
-
-COUNTD(Order ID)
-
-Sales per Customer
-
-Year-over-Year growth
-
-Monthly trends
-
-Sub-category profitability
-
-Customer profit ranking
-
-🛠️ Tech Stack
-
-Technology                          Purpose
-
-📊 Tableau                      Data visualization, dashboard
-development & analysis
-
-📄 CSV                          Source datasets
-
-🎨 Dashboard Design
+## 🎨 Dashboard Design
 
 The dashboards were designed with a focus on:
 
@@ -382,7 +355,7 @@ Business-oriented visual storytelling
 Custom dashboard icons were also included in the project dataset package
 for navigation and visual identity.
 
-📸 Dashboard Preview
+# 📸 Dashboard Preview
 
 Sales Dashboard
 
