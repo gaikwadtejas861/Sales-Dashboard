@@ -329,7 +329,16 @@ attributes to create a unified analytical view in Tableau.
 
 The dashboards use calculated aggregations such as:
 
-SUM(Sales),-- SUM(Profit), SUM(Quantity), COUNTD(Customer ID), COUNTD(Order ID), Sales per Customer, Year-over-Year growth, Monthly trends, Sub-category profitability, Customer profit ranking
+SUM(Sales)
+SUM(Profit)
+SUM(Quantity)
+COUNTD(Customer ID)
+COUNTD(Order ID)
+Sales per Customer
+Year-over-Year growth
+Monthly trends
+Sub-category profitability
+Customer profit ranking
 
 
 ## 🎨 Dashboard Design
@@ -359,20 +368,12 @@ for navigation and visual identity.
 
 Sales Dashboard
 
-Place the dashboard screenshot in the repository as:
 
-assets/sales-dashboard.png
-
-Then use:
 
 ![Sales Dashboard](assets/sales-dashboard.png)
 
 Customer Dashboard
 
-Place the dashboard screenshot in the repository as:
 
-assets/customer-dashboard.png
-
-Then use:
 
 ![Customer Dashboard](assets/customer-dashboard.png)
